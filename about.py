@@ -15,7 +15,7 @@ name, age, gcloud = "Sayon Sai Dutta", getAge(year.year, year.month, year.day), 
 skills = ['Full-Stack Web Developer', 'Computational Intelligence', 'Software Developer', 'Flutter Mobile App Developer']
 dob, linkedin, muj = "27 November 2000", 'https://www.linkedin.com/in/sayon-sai-dutta-47742b190/', 'I am currently pursuing B.Tech in Computer & Communication Engineering from Manipal University Jaipur'
 
-code = f"def about_me():\n\tname, age = {name}, {age}\n\tskills = {skills}\n\tprint('{muj}')\n\tdate_of_birth = {dob}\n\tgithub = 'https://github.com/sayonnnnnn'\n\tlinkedin = {linkedin}\n\tgcloud = {gcloud}\n\temail = {email}\n\tphone = +91 9555870869\n\nabout_me()"
+code = f"I am {name}. I am {age} years old. I am currently pursuing B.Tech in Computer and Communication Engineering from Manipal University Jaipur. I am a Computational Intelligence enthusiast, a Full-Stack Web Developer, a Software developer and a Flutter cross-platform mobile application developer."
 
 def app():
 	st.balloons()
@@ -28,6 +28,10 @@ def app():
 		st.write("")
 	st.title("About Me")
 	st.write(code)
+	st.write("Date of Birth: 27 November 2000")
+	st.write("Linkedin: [https://www.linkedin.com/in/sayon-sai-dutta-47742b190/](https://www.linkedin.com/in/sayon-sai-dutta-47742b190/)")
+	st.write("Github: [https://github.com/sayonnnnnn](https://github.com/sayonnnnnn)")
+	st.write("GCloud: [https://www.cloudskillsboost.google/public_profiles/ff40dc52-a7bd-4376-b1a8-8201253937a3](https://www.cloudskillsboost.google/public_profiles/ff40dc52-a7bd-4376-b1a8-8201253937a3)")
 	st.header("Technologies I am familiar with")
 	# ------------------ Full Stack
 	# Frontend
