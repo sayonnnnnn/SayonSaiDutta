@@ -14,7 +14,6 @@ chardet==4.0.0
 charset-normalizer==2.0.10
 click==8.0.1
 colorama==0.4.4
-cowin-vaccine-api==0.0.3
 cryptography==3.4.7
 cycler==0.11.0
 DateTime==4.3
@@ -97,7 +96,6 @@ pyparsing==2.4.7
 PyQt5==5.15.4
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.9.0
-Pyrebase==3.0.27
 pyrsistent==0.18.0
 pytest==6.2.3
 python-dateutil==2.8.1
@@ -128,6 +126,5 @@ Werkzeug==2.0.1
 wrapt==1.12.1
 WTForms==2.3.3
 yarl==1.6.3
-yfinance==0.1.59
 zipp==3.7.0
 zope.interface==5.4.0
