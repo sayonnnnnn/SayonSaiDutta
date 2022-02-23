@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_ace import st_ace
 import datetime
 import time 
 from PIL import Image
@@ -18,9 +17,6 @@ dob, linkedin, muj = "27 November 2000", 'https://www.linkedin.com/in/sayon-sai-
 
 code = f"def about_me():\n\tname, age = {name}, {age}\n\tskills = {skills}\n\tprint('{muj}')\n\tdate_of_birth = {dob}\n\tgithub = 'https://github.com/sayonnnnnn'\n\tlinkedin = {linkedin}\n\tgcloud = {gcloud}\n\temail = {email}\n\tphone = +91 9555870869\n\nabout_me()"
 
-smtp_ssl_host = 'smtp.gmail.com'
-smtp_ssl_port = 465
-
 def app():
 	st.balloons()
 	col1, col2, col3 = st.columns(3)
@@ -31,10 +27,7 @@ def app():
 	with col3:
 		st.write("")
 	st.title("About Me")
-	# Spawn a new Ace editor
-	content = st_ace(value=code)
-	# Display editor's content as you type
-	content
+	st.write(code)
 	st.header("Technologies I am familiar with")
 	# ------------------ Full Stack
 	# Frontend
