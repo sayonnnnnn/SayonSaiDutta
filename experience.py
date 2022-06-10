@@ -2,17 +2,6 @@ import streamlit as st
 from PIL import Image
 import base64
 
-# def displayPDF(file):
-#     # Opening file from file path
-#     with open(file, "rb") as f:
-#         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-
-#     # Embedding PDF in HTML
-#     # pdf_display = F'<embed src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf">'
-# 	pdf_display = F"""<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>"""
-#     # Displaying File
-#     st.markdown(pdf_display, unsafe_allow_html=True)
-
 video_file_bitquery = open('Bitquery-video.mp4', 'rb')
 video_bytes_bitquery = video_file_bitquery.read()
 
@@ -22,6 +11,8 @@ video_bytes_edumee = video_file_edumee.read()
 def app():
 	st.balloons()
 	st.title("Some of my work experience")
+	st.success('Currently working as a full-time Technical Support Engineer in Bitquery')
+	
 	st.header("Bitquery")
 	st.write("Role: Software Development Intern")
 	colone, coltwo = st.columns(2)
