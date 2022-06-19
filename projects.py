@@ -55,6 +55,6 @@ def app():
 	st.write("This is an Android Application made for Hostlers of MUJ so that they can avail benefits of applying Online request for Out Pass and Guest Room Booking Approvals. Students can also get information about Mess Menu from the app itself. In Similar Fashion Hostel Authority can also manage student requests on this app and take decision accordingly which help them reduce paper work and enable to maintain proper records as well.")
 	st.write("Github Repository: [https://github.com/sayonnnnnn/Flutter-Hostel-Management-App](https://github.com/sayonnnnnn/Flutter-Hostel-Management-App)")
 
-	components.iframe("https://github.com/sayonnnnnn?tab=repositories")
+	components.iframe("https://github.com/sayonnnnnn")
 	st.image(Image.open('icons8-github-48.png'))
 	st.write("Check out my [Github Repository](https://github.com/sayonnnnnn) for other projects")
