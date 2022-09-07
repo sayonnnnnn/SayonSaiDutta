@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 import base64
 
-video_file_bitquery = open('Bitquery-video.mp4', 'rb')
-video_bytes_bitquery = video_file_bitquery.read()
+# video_file_bitquery = open('Bitquery-video.mp4', 'rb')
+# video_bytes_bitquery = video_file_bitquery.read()
 
 video_file_edumee = open('edumee-video.mp4', 'rb')
 video_bytes_edumee = video_file_edumee.read()
@@ -11,6 +11,8 @@ video_bytes_edumee = video_file_edumee.read()
 def app():
 	st.balloons()
 	st.title("Some of my work experience")
+	st.success('Incoming SFDC Engineer at Deloitte.')
+	st.image(Image.open('DeloitteLogo.png')
 # 	st.success('Currently working as a full-time Technical Support Engineer in Bitquery')
 	st.header("Bitquery")
 	st.write("Role: Technical Support Engineer")
