@@ -11,13 +11,22 @@ video_bytes_edumee = video_file_edumee.read()
 def app():
 	st.balloons()
 	st.title("Some of my work experience")
-	st.success('Currently working as a full-time Technical Support Engineer in Bitquery')
-	
+# 	st.success('Currently working as a full-time Technical Support Engineer in Bitquery')
+	st.header("Bitquery")
+	st.write("Role: Technical Support Engineer")
+	c1, c2, c3 = st.columns(3) 
+	with c1:
+		st.write("")
+	with c2:
+		st.image(Image.open('bitqueryLogo.jpg')
+	with c3:
+		st.write("")
 	st.header("Bitquery")
 	st.write("Role: Software Development Intern")
 	colone, coltwo = st.columns(2)
 	with colone:
-		st.video(video_bytes_bitquery)
+# 		st.video(video_bytes_bitquery)
+		st.image(Image.open('bitqueryLogo.jpg')
 	# st.write("Role: Software Development Intern")
 	with coltwo:
 		st.image(Image.open('Internship Completion Certificate Bitquery Sayon Sai Dutta FINAL-signed-1.png'), caption='Bitquery Internship Completion Certificate')
