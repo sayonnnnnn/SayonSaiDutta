@@ -7,6 +7,8 @@ def app():
 	# st.image(Image.open('Microsoft_Certified_Professional_Certificate_0-1.png'), caption='Microsoft Azure AI Fundamentals AI-900')
 	# st.markdown("<object data='/Microsoft_Certified_Professional_Certificate_0.pdf/' type='application/pdf' width='100%'></object>", unsafe_allow_html=True)
 	st.image(Image.open('Microsoft_Certified_Professional_Certificate_0-1.png'), caption='Microsoft Azure AI Fundamentals AI-900')
+	st.subheader("Salesforce Developer Virtual Internship")
+	st.image(Image.open('Salesforce Virtual Internship Certificate.png'), caption='Salesforce Developer Virtual Internship by Smartbridge & AICTE')
 	st.subheader("Google Digital Marketing Certification")
 	st.image(Image.open('c3.jpeg'), caption='Google Digital Unlocked Digital Marketing Certification')
 	st.subheader("Coursera Accolades")
